@@ -1,7 +1,10 @@
 {
-  "name": "pkg-template",
+  "auhtor": "Roman Moravčík",
+  "license": "MIT",
+  "name": "@shyclown/pkg-template",
   "version": "0.1.0",
-  "private": true,
+
+
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.ts",
@@ -16,10 +19,12 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
+
+  },
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "peerDependencies": {},
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
@@ -56,5 +61,10 @@
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.30.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyclown/pkg-template.git"
   }
 }
